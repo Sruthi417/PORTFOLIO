@@ -1,5 +1,7 @@
-import Navbar from "~/Components/Navbar";
+import Navbar from "~/Components/Nav/Navbar";
 import type { Route } from "./+types/home";
+import About from "~/Components/about/About";
+
 
 
 
@@ -14,8 +16,14 @@ export function meta({}: Route.MetaArgs) {
 export default function Home() {
   return (
     <main >
-      <section>
+      <section >
         <Navbar/>
+      </section >
+      <section id="abouts" >
+        <About/>
+      
+
+      
       </section>
 
     </main>

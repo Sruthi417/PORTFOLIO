@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router";
+import './Nav.scss'
 
 const Navbar = ()=>{
     return(
+  <div className="nav">
    <nav className="navbar">
   <div className="nav-left">
     <img src="/images/vector.png" alt="logo" />
@@ -16,6 +18,7 @@ const Navbar = ()=>{
     <button className="hire-btn">Hire Me</button>
   </div>
 </nav>
+</div>
         
     )
 }

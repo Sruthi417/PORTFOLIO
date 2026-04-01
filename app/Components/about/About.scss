@@ -1,0 +1,242 @@
+.about-main{
+
+}
+  .about-subup{
+
+    display:flex;
+    align-items: center;
+    gap:20px;
+    padding: 30px 90px;
+  }
+
+  .avatar{
+    width:109px;
+    height:102px ;
+    transform: rotate(-5deg);
+  }
+
+  .arrow{
+    width:77px;
+    height: 45px;
+    transform:rotate(-10eg) ;
+  }
+  .name {
+  font-size: 32px;
+  font-weight: 600;
+  background-color: #f5bcd0; /* soft pink */
+  padding: 1px 1px;
+  
+  display: inline-block;
+  transform: translateY(-27px) rotate(-5deg);
+}
+
+//sub middle layer
+
+.about-submiddle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding:30px 90px;
+}
+
+.sen1{
+    font-size: 64px;
+    font-weight: bold;
+    max-width: 400px;
+
+}
+
+.highlight {
+  line-height: 40px;  
+  
+  padding: 1px 1px;
+  display: inline-block;
+  position: relative;
+ 
+}
+
+.highlight::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom:-13px;   
+  height: 60%;   
+  background-color: #f5bcd0;
+  z-index: -1;    
+  }
+
+  .sen-merge{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    transform: translateY(-5px) translateX(-30px);
+  }
+  
+.sen2{
+    font-size: 24px;
+    max-width: 400px;
+}
+
+ .hire-Btn {
+   background: black;
+   color: white;
+   height: 50px;
+   width: 150px;
+   position: relative;
+   transform: translateY(5px);
+   cursor: pointer;
+   
+ }
+
+
+  //subbottom
+
+  .about-subbottom{
+    display: flex;
+    flex-direction: column;
+    padding:30px 120px;
+    gap:25px;
+  }
+
+  .tag{
+    background-color: #f5bcd0;
+    width:143px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+  }
+
+  .arrow-down{
+    height: 27px;
+    width: 50px;
+    transform: rotate(-80deg);
+  }
+
+
+  //boxes
+
+  .boxes{
+    display: flex;
+    gap:10px
+  }
+
+  .card-yellow{
+     background-color: #FFE68C;
+     height:500px;
+     width: 452px;
+     border: 4px solid #e0b93b;
+     position: relative;
+     transform:rotate(-5deg) translateX(-50px);
+     border-radius: 6px;
+
+  }
+
+  .yellow {
+  position: absolute;
+  top: 90px;
+  right: -20px;
+  background-color: #9DDCFF;
+  padding: 6px 1px;   
+  font-size: 32px;
+  font-weight: bold;
+  display: inline-block;
+  transform: rotate(3deg);
+}
+
+.pencil{
+    position: absolute;
+    top: 175px;
+    left: 45px;
+}
+
+.yellow-sen{
+    font-size: 36px;
+    font-weight: bold;
+    position: absolute;
+    top:300px;
+    left: 45px;
+    max-width: 250px;
+}
+
+.card-blue{
+ background-color: #9DDCFF;
+     height:500px;
+     width: 452px;
+     border: 4px solid #53b5ee;
+     position: relative;
+     transform:rotate(5deg) translateX(-15px) translateY(5px);
+     border-radius: 6px;
+}
+
+.blue{
+  position: absolute;
+  top: -20px;
+  right: 30px;
+  background-color: #f5bcd0;
+  padding: 6px 1px;   
+  font-size: 32px;
+  font-weight: bold;
+  display: inline-block;
+  transform: rotate(-6deg);
+}
+
+.eye{
+    position: absolute;
+    top: 150px;
+    left: 45px;
+
+}
+
+.blue-sen{
+    font-size: 36px;
+    font-weight: bold;
+    position: absolute;
+    top:250px;
+    left: 45px;
+    max-width: 250px;
+}
+
+.card-pink{
+ background-color: #FFC9F0;
+     height:500px;
+     width: 452px;
+     border: 4px solid #F384D4;
+     position: relative;
+     transform:rotate(-5deg) translateX(18px) translateY(5px);
+     border-radius: 6px;
+}
+
+.pink{
+  position: absolute;
+  top: 90px;
+  right: -20px;
+  background-color:#FFE68C ;
+  padding: 6px 1px;   
+  font-size: 32px;
+  font-weight: bold;
+  display: inline-block;
+  transform: rotate(3deg);
+
+ 
+}
+
+.star{
+    position: absolute;
+    top: 175px;
+    left: 45px;
+
+}
+
+.pink-sen{
+    font-size: 36px;
+    font-weight: bold;
+    position: absolute;
+    top:300px;
+    left: 45px;
+    max-width: 250px;
+}
+
