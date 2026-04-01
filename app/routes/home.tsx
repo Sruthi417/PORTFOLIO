@@ -1,13 +1,23 @@
+import Navbar from "~/Components/Navbar";
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
+
+
+
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "Sruthi | Portfolio" },
+    { name: "description", content: "A personal portfolio showcasing web development projects and skills." },
   ];
 }
 
 export default function Home() {
-  return <Welcome />;
+  return (
+    <main >
+      <section>
+        <Navbar/>
+      </section>
+
+    </main>
+  )
 }
