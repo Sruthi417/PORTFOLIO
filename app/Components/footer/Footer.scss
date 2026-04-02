@@ -1,0 +1,55 @@
+.footer{
+
+    .footers{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 100px;
+    }
+
+    .bottom{
+        display:flex;
+        gap:20px
+    }
+
+    
+    .imgs{
+         width: 24px;
+         height: 24px;
+    }
+
+    .sruthi{
+
+        font-size: 18px;
+        font-weight: 600;
+
+
+    }
+    
+
+    .grp{
+        display :flex;
+        
+        gap:30px;
+        align-items: center;
+    }
+
+
+    .a{
+        background-color: black;
+        color: white;
+        font-size: 18px;
+    }
+
+    .b{
+        background-color: black;
+        color: white;
+        font-size: 18px;
+    }
+
+    .c{
+        background-color: black;
+        color: white;
+        font-size: 18px;
+    }
+}

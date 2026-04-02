@@ -4,6 +4,7 @@ import About from "~/Components/about/About";
 import Project from "~/Components/projects/Project"
 import Experience from "~/Components/experience/Experience";
 import Contact from "~/Components/contacts/Contact";
+import Footer from "~/Components/footer/Footer";
 
 
 
@@ -33,6 +34,10 @@ export default function Home() {
       </section>
       <section id="contacts">
         <Contact/>
+      </section>
+
+      <section>
+        <Footer/>
       </section>
       
 
