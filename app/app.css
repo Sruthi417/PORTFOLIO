@@ -1,3 +1,22 @@
+/* ===== GLOBAL RESET ===== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
+/* ===== DOTTED BACKGROUND ===== */
 .dotted-bg {
   background-color: #f8f8f8;
   background-image:
@@ -12,57 +31,4 @@
     0 0,
     0 0,
     0 0;
-}
-
-
-.navbar {
-  display: flex;
-  justify-content: space-between; 
-  align-items: center;
-  padding: 16px 100px;
-}
-
-
-.nav-left {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-
-.nav-left img {
-  width: 24px;
-  height: 24px;
-}
-
-.nav-left h3 {
-  font-size: 18px;
-  font-weight: 600;
-}
-
-
-.nav-right {
-  display: flex;
-  gap: 30px;
-  align-items: center;
-}
-
-.nav-right a {
-  text-decoration: none;
-  color: black;
-  font-size: 16px;
-  font-weight: 500;
-  
-}
-
-.nav-right a:hover {
-  opacity: 0.6;
-}
-.hire-btn {
-   background: black;
-  color: white;
-  padding: 8px 16px;
-  border: none;
-  cursor: pointer;
-  border-radius: 4px;
 }
