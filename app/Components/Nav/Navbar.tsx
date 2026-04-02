@@ -12,9 +12,9 @@ const Navbar = ()=>{
   </div>
 
   <div className="nav-right">
-    <a href="">About</a>
-    <a href="">Projects</a>
-    <a href="">Contact</a>
+    <a href="#abouts">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contacts">Contact</a>
     <button className="hire-btn">Hire Me</button>
   </div>
 </nav>

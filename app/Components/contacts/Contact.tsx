@@ -1,7 +1,7 @@
 import './Contact.scss'
 
 const Contact = () => {
-    
+
   return (
     <div className="contact">
       <div className="con-left">
@@ -21,7 +21,7 @@ const Contact = () => {
 
           <div className="row">
             <span className="label yellow">Your email</span>
-            <span className="value">sruthi@gmail.com</span>
+            <span className="value">sruthisukumaran07@gmail.com</span>
           </div>
 
           <div className="row">

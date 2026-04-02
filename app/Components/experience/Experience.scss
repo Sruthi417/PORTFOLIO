@@ -17,12 +17,12 @@
   .head2 {
     background-color: #f5bcd0;
     font-size: 32px;
-    width: 225px;
+    width: 250px;
     padding: 6px 1px;
     display: inline-block;
     position: absolute;
     top: 85px;
-    right: 250px;
+    right: 230px;
   }
 
   /* SUBTEXT */
@@ -137,8 +137,9 @@
 
     img {
       width: 80px;
-      height: 80px;
+      height: 90px;
       flex-shrink: 0;
+      transform: translateY(11px);
     }
 
     .exp-text {

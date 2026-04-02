@@ -27,10 +27,10 @@ const Experience = () => {
           <img src="icons/one.png" />
           <div className="exp-text">
             <h4>
-              Design intern at <b>Google</b>
+              Project Management Intern at <b>µLearn</b>
             </h4>
-            <p>Worked on design system at Material 3 designs</p>
-            <span>20, April 2021</span>
+            <p>Coordinated projects, managed tasks, and supported team execution.</p>
+            <span>6, January 2025</span>
           </div>
         </div>
 
@@ -38,10 +38,10 @@ const Experience = () => {
           <img src="/icons/two.png" />
           <div className="exp-text">
             <h4>
-              Sr. UI/UX Designer at <b>Microsoft</b>
+              Operations Lead at  <b>IEDC Devagiri</b>
             </h4>
-            <p>Worked on design system at Material 3 designs</p>
-            <span>20, April 2022</span>
+            <p>Managed operations, organized events, and ensured smooth workflows.</p>
+            <span>20, July 2025</span>
           </div>
         </div>
 
@@ -49,10 +49,10 @@ const Experience = () => {
           <img src="/icons/three.png" />
           <div className="exp-text">
             <h4>
-              Software Engineer at <b>SASS Startup</b>
+              Content Creator at  <b>µLearn Devagiri</b>
             </h4>
-            <p>Worked on design system at Material 3 designs</p>
-            <span>20, April 2023</span>
+            <p>Created content to support community engagement and learning initiatives.</p>
+            <span>23, September 2024</span>
           </div>
         </div>
       </div>

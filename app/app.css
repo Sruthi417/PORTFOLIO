@@ -1,4 +1,4 @@
-/* ===== GLOBAL RESET ===== */
+/*GLOBAL RESET  */
 *,
 *::before,
 *::after {
@@ -10,13 +10,19 @@
 html, body {
   overflow-x: hidden;
   font-family: 'Inter', sans-serif;
+
+}
+
+html{
+
+  scroll-behavior: smooth;
 }
 
 body {
   min-height: 100vh;
 }
 
-/* ===== DOTTED BACKGROUND ===== */
+/*  DOTTED BACKGROUND  */
 .dotted-bg {
   background-color: #f8f8f8;
   background-image:
