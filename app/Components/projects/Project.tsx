@@ -1,39 +1,51 @@
 import React from "react";
-import "./Projects.scss"
-const Project = ()=>{
-    return(
-        <div className="project">
-        <div className="projects-left">
+import "./Projects.scss";
+const Project = () => {
+  return (
+    <div className="project">
+      <div className="projects-left">
         <span className="heading">Featured Projects</span>
         <img src="/images/arrow.png" className="arrow-right" />
         <span className="sub-head">Have designed morethan 3 projects</span>
       </div>
 
-       
       <div className="projects-grid">
-        <div className="card">
-          <img src="/images/pro1.png" />
-          <p>4 style portfolio design</p>
-        </div>
+        <a
+          href="https://portfolio-srutyyys-projects.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="card"
+        >
+          <img src="/images/proj1.png" />
+          <p>styled my portfolio </p>
+        </a>
 
-        <div className="card">
+        <a
+          href="https://quickbay.in"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="card"
+        >
           <img src="/images/pro2.png" />
-          <p>Color system for app</p>
-        </div>
+          <p>an app for Entrepreneurs</p>
+        </a>
 
-        <div className="card">
+        <a
+          href="https://resume-builder-theta-snowy.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="card"
+        >
           <img src="/images/pro3.png" />
-          <p>Onboarding screen process</p>
-        </div>
+          <p>The resume checker</p>
+        </a>
 
         <div className="card">
           <img src="/images/pro4.png" />
-          <p>Finance landing page</p>
+          <p>Updates are on the way</p>
         </div>
       </div>
-      </div>
-            
-    )
-
-}
-export default Project
+    </div>
+  );
+};
+export default Project;

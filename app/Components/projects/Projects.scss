@@ -48,16 +48,19 @@
     border: 2px solid black;
     padding: 16px;
     background: #fff;
+    text-decoration: none;
 
     img {
       width: 100%;
       border-radius: 6px;
+      height: 94%;
     }
 
     p {
       margin-top: 12px;
       font-size: 18px;
       font-weight: 600;
+      color: black;
     }
   }
 
