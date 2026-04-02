@@ -1,0 +1,69 @@
+.project{
+
+
+}
+  
+ .projects-left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 65px;
+    position: relative;
+    bottom: -150px;
+    
+ }
+
+ .heading{
+    background-color: #f5bcd0;
+    font-size: 32px;
+    width:225px;
+    padding: 6px 1px;
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    right: -30px;
+
+    
+ }
+
+ .arrow-right{
+    height: 27px;
+    width: 50px;
+    transform: rotate(-120deg);
+    position: relative;
+    top:130px;
+    right: -200px;
+
+  }
+
+  .sub-head{
+   font-size: 24px;
+   position: relative;
+   top:170px;
+   right: -30px;
+   max-width: 200px;
+  }
+
+ .projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+  gap: 30px;
+  
+  margin-left: 350px;
+
+}
+
+.card {
+  border: 2px solid black;
+  padding: 16px;
+  background: #fff;
+
+  img {
+    width: 100%;
+    border-radius: 6px;
+  }
+
+  p {
+    margin-top: 12px;
+    font-size: 18px;
+  }
+}

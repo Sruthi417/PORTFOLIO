@@ -1,6 +1,7 @@
 import Navbar from "~/Components/Nav/Navbar";
 import type { Route } from "./+types/home";
 import About from "~/Components/about/About";
+import Project from "~/Components/projects/Project"
 
 
 
@@ -21,9 +22,9 @@ export default function Home() {
       </section >
       <section id="abouts" >
         <About/>
-      
-
-      
+      </section>
+      <section id="projects">
+        <Project/>
       </section>
 
     </main>
