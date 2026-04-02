@@ -9,9 +9,9 @@ const Footer = () => {
           <span className="sruthi">Sruthi</span>
         </div>
         <div className="grp">
-          <span className="a">Twitter X</span>
-          <span className="b">LinkedIn</span>
-          <span className="c">Instagram </span>
+          <a href="https://www.linkedin.com/in/sruthi-m-sukumaran" target="_blank" rel="noopener noreferrer" className="a">LinkedIn</a>
+          <a href="https://github.com/Sruthi417" target="_blank" rel="noopener noreferrer" className="b">GitHub</a>
+         
         </div>
       </div>
     </div>

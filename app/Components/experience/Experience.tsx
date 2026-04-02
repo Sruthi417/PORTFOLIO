@@ -8,7 +8,7 @@ const Experience = () => {
         <span className="head2">Work Experience</span>
         <img src="/images/arrow.png" className="arrow-rights" />
         <span className="sub-head2">
-          Have been designing since my past 4 years
+          Gaining hands-on experience through projects and practice.
         </span>
       </div>
 

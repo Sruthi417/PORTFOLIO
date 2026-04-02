@@ -27,7 +27,7 @@
 
   /* SUBTEXT */
   .sub-head2 {
-    font-size: 24px;
+    font-size: 20px;
     position: absolute;
     top: 210px;
     right: 180px;
@@ -181,19 +181,21 @@
     .head2 {
       position: static;
       display: inline-block;
-      width: auto;
+      width:260px;;
       padding: 6px 8px;
     }
 
     .arrow-rights {
       position: static;
       transform: rotate(-120deg);
+     
     }
 
     .sub-head2 {
       position: static;
       width: auto;
       max-width: 100%;
+      
     }
 
     .rectangle {
@@ -226,6 +228,8 @@
     .head2 {
       font-size: 26px;
     }
+
+    
 
     .sub-head2 {
       font-size: 18px;

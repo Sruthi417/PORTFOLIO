@@ -15,7 +15,10 @@ const Navbar = ()=>{
     <a href="#abouts">About</a>
     <a href="#projects">Projects</a>
     <a href="#contacts">Contact</a>
-    <button className="hire-btn">Hire Me</button>
+    <button onClick={() =>
+    window.location.href =
+      "mailto:sruthisukumaran07@gmail.com?subject=hiring Inquiry&body=Hi Sruthi, I would like to connect."
+       } className="hire-btn">Hire Me</button>
   </div>
 </nav>
 </div>
