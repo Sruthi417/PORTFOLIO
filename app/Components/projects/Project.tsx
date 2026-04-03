@@ -11,7 +11,7 @@ const Project = () => {
 
       <div className="projects-grid">
         <a
-          href="https://portfolio-srutyyys-projects.vercel.app/"
+          href="https://sruthii-portfolio.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
           className="card"
