@@ -115,6 +115,16 @@
     }
   }
 
+
+
+  @media (max-width: 480px) {
+  .sub-head {
+    transform: translateY(15px);
+  }
+
+  
+}
+
   /* ===== SMALL MOBILE (below 400px) ===== */
   @media (max-width: 400px) {
     padding: 30px 16px;
@@ -123,8 +133,13 @@
       font-size: 24px;
     }
 
+    
+    
+
     .sub-head {
       font-size: 16px;
+      
+
     }
 
     .projects-grid {
