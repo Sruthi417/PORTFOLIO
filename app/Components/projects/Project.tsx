@@ -6,7 +6,7 @@ const Project = () => {
       <div className="projects-left">
         <span className="heading">Featured Projects</span>
         <img src="/images/arrow.png" className="arrow-right" />
-        <span className="sub-head">Have designed morethan 3 projects</span>
+        <span className="sub-head">things I’ve built so far</span>
       </div>
 
       <div className="projects-grid">
