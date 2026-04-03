@@ -33,8 +33,8 @@ const About = () => {
         <img src="/images/arrow.png" className="arrow-down" />
         <div className="boxes">
           <div className="card-yellow">
-            <span className="yellow">Pen/Paper</span>
-            <img src="/icons/pencil.png" className="pencil" />
+            <span className="yellow">React</span>
+            <img src="/icons/React.png" className="pencil" />
             <span className="yellow-sen">Frontend Development</span>
           </div>
 
@@ -45,7 +45,7 @@ const About = () => {
           </div>
 
           <div className="card-pink">
-            <span className="pink">Webflow</span>
+            <span className="pink">Node.js</span>
             <img src="/icons/star.png" className="star" />
             <span className="pink-sen">Backend Development</span>
           </div>
