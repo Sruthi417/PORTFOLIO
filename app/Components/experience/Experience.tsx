@@ -27,9 +27,9 @@ const Experience = () => {
           <img src="icons/one.png" />
           <div className="exp-text">
             <h4>
-              Project Management Intern at <b>µLearn</b>
+              Frontend Intern at <b>µLearn</b>
             </h4>
-            <p>Coordinated projects, managed tasks, and supported team execution.</p>
+            <p>Built responsive UI, developed frontend features, and supported team collaboration.</p>
             <span>6, January 2025</span>
           </div>
         </div>
