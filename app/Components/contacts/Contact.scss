@@ -113,7 +113,9 @@
     }
 
     .value {
-      transform: none;
+      //transform: none;
+      margin-left: -1px;
+      
     }
   }
 
@@ -151,6 +153,7 @@
 
     .value {
       font-size: 14px;
+      margin-left: 10px;
     }
 
     .send-btn {
