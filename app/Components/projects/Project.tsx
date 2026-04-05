@@ -40,10 +40,17 @@ const Project = () => {
           <p>The resume checker</p>
         </a>
 
-        <div className="card">
+        
+          <a
+          href="https://dashboard-ui-wine-ten.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="card"
+        >
           <img src="/images/pro4.png" />
-          <p>Updates are on the way</p>
-        </div>
+          <p>UI design (desktop only)</p>
+          </a>
+        
       </div>
     </div>
   );
