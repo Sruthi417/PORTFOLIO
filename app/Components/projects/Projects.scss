@@ -1,59 +1,63 @@
 .project {
+  width: 100%;
   overflow: hidden;
+  padding: 60px 65px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 40px;
 
   .projects-left {
+    flex: 0 0 280px;
     display: flex;
     flex-direction: column;
-    margin-left: 65px;
     position: relative;
-    bottom: -150px;
+    padding-top: 30px;
   }
 
   .heading {
     background-color: #f5bcd0;
     font-size: 32px;
-    width: 250px;
-    padding: 6px 1px;
+    width: fit-content;
+    padding: 6px 10px;
     display: inline-block;
-    position: relative;
-    top: 100px;
-    right: -30px;
   }
 
   .arrow-right {
     height: 27px;
     width: 50px;
     transform: rotate(-120deg);
-    position: relative;
-    top: 130px;
-    right: -200px;
+    margin-top: 18px;
+    margin-left: 40px;
   }
 
   .sub-head {
     font-size: 24px;
-    position: relative;
-    top: 170px;
-    right: -30px;
-    max-width: 200px;
+    max-width: 220px;
+    margin-top: 18px;
   }
 
   .projects-grid {
+    flex: 1 1 0;
+    min-width: 0;
     display: grid;
-    grid-template-columns: repeat(2, 500px);
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
-    margin-left: 400px;
   }
 
   .card {
+    width: 100%;
     border: 2px solid black;
     padding: 16px;
     background: #fff;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
 
     img {
       width: 100%;
       border-radius: 6px;
-      height: 94%;
+      object-fit: cover;
     }
 
     p {
@@ -64,86 +68,64 @@
     }
   }
 
-  /* ===== TABLET & MOBILE (below 768px) ===== */
-  @media (max-width: 768px) {
-    padding: 40px 20px;
+  /* ===== LARGE TABLETS / SMALL DESKTOPS (below 1024px) ===== */
+  @media (max-width: 1024px) {
+    padding: 50px 40px;
+    gap: 30px;
 
     .projects-left {
-      margin-left: 0;
-      bottom: 0;
-      gap: 8px;
-      padding: 0;
-      margin-bottom: 30px;
+      flex: 0 0 220px;
+      padding-top: 10px;
     }
 
     .heading {
-      position: static;
       font-size: 28px;
-      width: auto;
-      display: inline-block;
-      padding: 4px 8px;
-      align-self: flex-start;
-    }
-
-    .arrow-right {
-      position: static;
-      transform: rotate(-120deg);
-      align-self: flex-start;
-      margin-top: 5px;
     }
 
     .sub-head {
-      position: static;
-      font-size: 18px;
-      max-width: 100%;
-      margin-top: 5px;
-    }
-
-    .projects-grid {
-      grid-template-columns: 1fr;
-      margin-left: 0;
-      margin-right: 0;
-      gap: 30px;
-    }
-
-    .card {
-      padding: 14px;
-
-      p {
-        font-size: 16px;
-      }
-    }
-  }
-
-
-
-  @media (max-width: 480px) {
-  .sub-head {
-    transform: translateY(15px);
-  }
-
-  
-}
-
-  /* ===== SMALL MOBILE (below 400px) ===== */
-  @media (max-width: 400px) {
-    padding: 30px 16px;
-
-    .heading {
-      font-size: 24px;
-    }
-
-    
-    
-
-    .sub-head {
-      font-size: 16px;
-      
-
+      font-size: 20px;
     }
 
     .projects-grid {
       gap: 24px;
+    }
+
+    .card p {
+      font-size: 16px;
+    }
+  }
+
+  /* ===== TABLET & MOBILE (below 768px) — stack vertically ===== */
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 40px 24px;
+    gap: 24px;
+
+    .projects-left {
+      flex: none;
+      width: 100%;
+      padding-top: 0;
+      gap: 6px;
+    }
+
+    .heading {
+      font-size: 26px;
+    }
+
+    .arrow-right {
+      margin-top: 8px;
+      margin-left: 20px;
+    }
+
+    .sub-head {
+      font-size: 18px;
+      max-width: 100%;
+      margin-top: 10px;
+    }
+
+    .projects-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
     }
 
     .card {
@@ -151,6 +133,33 @@
 
       p {
         font-size: 15px;
+      }
+    }
+  }
+
+  /* ===== SMALL MOBILE (below 480px) — single column ===== */
+  @media (max-width: 480px) {
+    padding: 32px 16px;
+    gap: 20px;
+
+    .heading {
+      font-size: 24px;
+    }
+
+    .sub-head {
+      font-size: 16px;
+    }
+
+    .projects-grid {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    .card {
+      padding: 10px;
+
+      p {
+        font-size: 14px;
       }
     }
   }
