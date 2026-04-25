@@ -10,15 +10,7 @@ const Project = () => {
       </div>
 
       <div className="projects-grid">
-        <a
-          href="https://sruthii-portfolio.vercel.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="card"
-        >
-          <img src="/images/proj1.png" />
-          <p>styled my portfolio </p>
-        </a>
+      
 
         <a
           href="https://quickbay.in"
@@ -28,6 +20,16 @@ const Project = () => {
         >
           <img src="/images/pro2.png" />
           <p>an app for Entrepreneurs</p>
+        </a>
+
+          <a
+          href="https://doodle-xi-two.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="card"
+        >
+          <img src="/images/pro.png" />
+          <p>make a note!! </p>
         </a>
 
         <a
