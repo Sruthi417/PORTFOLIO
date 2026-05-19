@@ -229,10 +229,20 @@
     max-width: 250px;
   }
 
+  @media (max-width:1200px){
+     .yellow-sen,
+    .blue-sen,
+    .pink-sen {
+      font-size: 28px;
+      top: 250px;
+    }
+    
+  }
+
   /* ==============================================
      TABLET BREAKPOINT
      ============================================== */
-  @media (max-width: 768px) {
+  @media (max-width: 1064px) {
     .about-subup {
       padding: 20px 40px;
       gap: 15px;

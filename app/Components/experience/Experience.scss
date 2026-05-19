@@ -22,7 +22,7 @@
     display: inline-block;
     position: absolute;
     top: 85px;
-    right: 230px;
+    left: -13px;
   }
 
   /* SUBTEXT */
@@ -30,7 +30,7 @@
     font-size: 20px;
     position: absolute;
     top: 210px;
-    right: 180px;
+    left: -15px;
     width: 300px;
   }
 
@@ -41,7 +41,7 @@
     transform: rotate(-120deg);
     position: absolute;
     top: 150px;
-    right: 250px;
+    left: 200px;
   }
 
   .rectangle {
@@ -162,6 +162,67 @@
         font-size: 16px;
         opacity: 50%;
         color: rgb(9, 9, 9);
+      }
+    }
+  }
+
+  /* ===== RESPONSIVE DESKTOP/LAPTOP ===== */
+  @media (max-width: 1389px) and (min-width: 769px) {
+    gap: 40px;
+    padding: 80px 40px;
+
+    .left {
+      min-width: 320px;
+      width: 35%;
+    }
+
+    .head2 {
+      font-size: 26px;
+      width: 210px;
+      top: 60px;
+      left: 0;
+    }
+
+    .arrow-rights {
+      top: 110px;
+      left: 150px;
+      width: 40px;
+      height: 22px;
+    }
+
+    .sub-head2 {
+      font-size: 18px;
+      top: 155px;
+      left: 0;
+      width: 250px;
+    }
+
+    .rectangle {
+      transform: translateX(-40px) translateY(30px);
+      padding: 40px 30px;
+    }
+
+    .exp-item {
+      gap: 15px;
+      margin-bottom: 25px;
+
+      img {
+        width: 60px;
+        height: auto;
+      }
+
+      .exp-text {
+        h4 {
+          font-size: 18px;
+        }
+
+        p {
+          font-size: 15px;
+        }
+
+        span {
+          font-size: 14px;
+        }
       }
     }
   }

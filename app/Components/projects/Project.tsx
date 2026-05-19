@@ -10,8 +10,16 @@ const Project = () => {
       </div>
 
       <div className="projects-grid">
-      
-
+        
+        <a
+          href="https://marion-coral.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="card"
+        >
+          <img src="/images/project-ecom.png" />
+          <p>fashion ecommerce</p>
+        </a>
         <a
           href="https://quickbay.in"
           target="_blank"
@@ -21,17 +29,6 @@ const Project = () => {
           <img src="/images/pro2.png" />
           <p>an app for Entrepreneurs</p>
         </a>
-
-          <a
-          href="https://doodle-xi-two.vercel.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="card"
-        >
-          <img src="/images/pro.png" />
-          <p>make a note!! </p>
-        </a>
-
         <a
           href="https://resume-builder-theta-snowy.vercel.app/"
           target="_blank"
@@ -41,9 +38,17 @@ const Project = () => {
           <img src="/images/pro3.png" />
           <p>The resume checker</p>
         </a>
-
+        <a
+          href="https://doodle-xi-two.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="card"
+        >
+          <img src="/images/doodle.png" />
+          <p>make a note!! </p>
+        </a>
         
-          <a
+        {/* <a 
           href="https://dashboard-ui-wine-ten.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
@@ -51,8 +56,7 @@ const Project = () => {
         >
           <img src="/images/pro4.png" />
           <p>UI design (desktop only)</p>
-          </a>
-        
+        </a>*/}
       </div>
     </div>
   );

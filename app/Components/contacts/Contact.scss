@@ -16,7 +16,8 @@
     font-size: 32px;
     position: absolute;
     top: -1px;
-    right: 295px;
+    //right: 300px;
+    left: -15px;
   }
 
   .arrow-down {
@@ -25,14 +26,15 @@
     transform: rotate(-120deg);
     position: absolute;
     top: 60px;
-    right: 300px;
+    left: 110px;
   }
 
   .sen-sub {
     font-size: 24px;
     position: absolute;
     top: 115px;
-    right: 180px;
+    //right: 180px;
+     left: -15px;
     width: 300px;
   }
 
@@ -41,6 +43,8 @@
     flex-direction: column;
     gap: 40px;
     width: 600px;
+    max-width: 100%;
+    transform: translateX(-100px);
   }
 
   .row {
@@ -78,6 +82,63 @@
     font-size: 16px;
   }
 
+  /* ===== RESPONSIVE DESKTOP/LAPTOP ===== */
+  @media (max-width: 1389px) and (min-width: 769px) {
+    gap: 40px;
+    padding: 80px 40px;
+
+    .con-left {
+      min-width: 320px;
+      width: 35%;
+    }
+
+    .contact-name {
+      font-size: 28px;
+      left: 0;
+      top: 0;
+    }
+
+    .arrow-down {
+      top: 50px;
+      left: 100px;
+      width: 40px;
+      height: 22px;
+    }
+
+    .sen-sub {
+      font-size: 20px;
+      top: 100px;
+      left: 0;
+      width: 250px;
+    }
+
+    .con-right {
+      width: auto;
+      flex: 1;
+      gap: 30px;
+      transform: translateX(-40px);
+    }
+
+    .row {
+      gap: 15px;
+    }
+
+    .label {
+      font-size: 16px;
+      padding: 3px 8px;
+    }
+
+    .value {
+      font-size: 15px;
+      transform: translateX(-15px);
+    }
+    
+    .send-btn {
+      padding: 10px 20px;
+      font-size: 15px;
+    }
+  }
+
   /* ===== TABLET ===== */
   @media (max-width: 768px) {
     flex-direction: column;
@@ -110,6 +171,7 @@
 
     .con-right {
       width: 100%;
+      transform: none;
     }
 
     .value {
